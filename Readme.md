@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[CustomSchedulerCommandFactoryService.cs](./CS/WindowsFormsApplication1/CustomSchedulerCommandFactoryService.cs) (VB: [CustomSchedulerCommandFactoryService.vb](./VB/WindowsFormsApplication1/CustomSchedulerCommandFactoryService.vb))**
+* [Form1.cs](./CS/WindowsFormsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsFormsApplication1/Form1.vb))
+<!-- default file list end -->
 # How to replace a default SchedulerControl's command with a custom one
 
 
