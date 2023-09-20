@@ -6,7 +6,7 @@
 
 # WinForms Scheduler - Replace a default Scheduler command with a custom command
 
-The WinForms Scheduler Control exposes the `ISchedulerCommandFactoryService` interface that enables you to substitute the default command with your own (custom) command. This example replaces the default **SplitAppointmentOperationCommand** command with a custom command. The custom command has with the `SplitAppointmentCommandStep` property that specifies a fixed split operation's step.
+The WinForms Scheduler Control exposes the [ISchedulerCommandFactoryService](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraScheduler.Services.ISchedulerCommandFactoryService) interface that enables you to substitute the default command with your own (custom) command. This example replaces the default **SplitAppointmentOperationCommand** command with a custom command. The custom command has with the `SplitAppointmentCommandStep` property that specifies a fixed split operation's step.
 
 ```csharp
 public class CustomSplitAppointmentOperationCommand : SplitAppointmentOperationCommand {
@@ -42,3 +42,9 @@ public class CustomSplitAppointmentOperationCommand : SplitAppointmentOperationC
 
 * [CustomSchedulerCommandFactoryService.cs](./CS/WindowsFormsApplication1/CustomSchedulerCommandFactoryService.cs) (VB: [CustomSchedulerCommandFactoryService.vb](./VB/WindowsFormsApplication1/CustomSchedulerCommandFactoryService.vb))
 * [Form1.cs](./CS/WindowsFormsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsFormsApplication1/Form1.vb))
+
+
+## Documentation
+
+* [Services](https://docs.devexpress.com/WindowsForms/4106/controls-and-libraries/scheduler/services)
+* [Command Factory Service](https://docs.devexpress.com/WindowsForms/120381/controls-and-libraries/scheduler/services/command-factory-service)
